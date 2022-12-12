@@ -38,7 +38,7 @@ while (eleccion.toUpperCase() != "si".toUpperCase() && eleccion.toUpperCase() !=
 }
 
 if (eleccion.toUpperCase() === "si".toUpperCase()) {
-    let allProducts = arrayProductos.map((arrayProductos) => arrayProductos.nombre + " " + " $ " + arrayProductos.precio);
+    let allProducts = arrayProductos.map((arrayProductos) => arrayProductos.nombre + " " + " $ " + arrayProductos.precio + "\n");
     alert(allProducts.join(" - "))
 } else if (eleccion.toUpperCase() == "no".toUpperCase()) {
     alert("Muchas gracias por visitarnos. Te esperamos pronto!");
